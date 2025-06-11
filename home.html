@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"> <img src="images/iconw.png" >
+            Wijaya Lanka land sales</a>
+
+         <ul>
+            <li><a href="#">post property<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="home.html">buy<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">house</a></li>
+                     <li><a href="#">flat</a></li>
+                     <li><a href="#">shop</a></li>
+                     <li><a href="#">ready to move</a></li>
+                     <li><a href="#">furnished</a></li>
+                  </ul>
+               </li>
+               <li><a href="listings.html">sell<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">post property</a></li>
+                     <li><a href="#">dashboard</a></li>
+                  </ul>
+               </li>
+               <li><a href="listings.html">rent<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">house</a></li>
+                     <li><a href="#">flat</a></li>
+                     <li><a href="#">shop</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">about us</a></i></li>
+                     <li><a href="contact.html">contact us</a></i></li>
+                     <li><a href="contact.html#faq">FAQ</a></i></li>
+                  </ul>
+               </li>
+               <li><a href="search.html ">Search</i></a>
+                 
+               </li>
+            </ul>
+            
+         </div>
+
+         <ul>
+            <li><a href="#">saved <i class="far fa-heart"></i></a></li>
+            <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">login</a></li>
+                  <li><a href="register.html">register</a></li>
+               </ul>
+            </li>
+         </ul>
+
+         
+      </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="home">
+
+   <section class="center">
+
+      <form action="search.html" method="post">
+         <h3>find your perfect home</h3>
+         <div class="box">
+            <p>enter location <span>*</span></p>
+            <input type="text" name="location" required maxlength="50" placeholder="enter city name" class="input">
+         </div>
+         <div class="flex">
+            <div class="box">
+               <p>property type <span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="flat">flat</option>
+                  <option value="house">house</option>
+                  <option value="shop">shop</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>how many BHK <span>*</span></p>
+               <select name="bhk" class="input" required>
+                  <option value="1">1 BHK</option>
+                  <option value="2">2 BHK</option>
+                  <option value="3">3 BHK</option>
+                  <option value="4">4 BHK</option>
+                  <option value="5">5 BHK</option>
+                  <option value="6">6 BHK</option>
+                  <option value="7">7 BHK</option>
+                  <option value="8">8 BHK</option>
+                  <option value="9">9 BHK</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>maximum budget <span>*</span></p>
+               <select name="minimum" class="input" required>
+                  <option value="5000000">5 lakh</option>
+                  <option value="1000000">10 lakh</option>
+                  <option value="2000000">20 lakh</option>
+                  <option value="3000000">30 lakh</option>
+                  <option value="4000000">40 lakh</option>
+                  <option value="4000000">40 lakh</option>
+                  <option value="5000000">50 lakh</option>
+                  <option value="6000000">60 lakh</option>
+                  <option value="7000000">70 lakh</option>
+                  <option value="8000000">80 lakh</option>
+                  <option value="9000000">90 lakh</option>
+                  <option value="10000000">RS 10 000 </option>
+                  <option value="20000000">RS 20 000</option>
+                  <option value="30000000">RS 30 000</option>
+                  <option value="40000000">RS 40 000</option>
+                  <option value="50000000">RS 50 000</option>
+                  <option value="60000000">RS 60 000</option>
+                  <option value="70000000">RS 70 000</option>
+                  <option value="80000000">RS 80 000</option>
+                  <option value="90000000">RS 90 000</option>
+                  
+               </select>
+            </div>
+            <div class="box">
+               <p>maximum budget <span>*</span></p>
+               <select name="maximum" class="input" required>
+                  <option value="5000000">5 lakh</option>
+                  <option value="1000000">10 lakh</option>
+                  <option value="2000000">20 lakh</option>
+                  <option value="3000000">30 lakh</option>
+                  <option value="4000000">40 lakh</option>
+                  <option value="4000000">40 lakh</option>
+                  <option value="5000000">50 lakh</option>
+                  <option value="6000000">60 lakh</option>
+                  <option value="7000000">70 lakh</option>
+                  <option value="8000000">80 lakh</option>
+                  <option value="9000000">90 lakh</option>
+                  <option value="10000000">RS 10 000 </option>
+                  <option value="20000000">RS 20 000</option>
+                  <option value="30000000">RS 30 000</option>
+                  <option value="40000000">RS 40 000</option>
+                  <option value="50000000">RS 50 000</option>
+                  <option value="60000000">RS 60 000</option>
+                  <option value="70000000">RS 70 000</option>
+                  <option value="80000000">RS 80 000</option>
+                  <option value="90000000">RS 90 000</option>
+                  
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="search property" name="search" class="btn">
+      </form>
+
+   </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section class="services">
+
+   <h1 class="heading">our services</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>buy house/land</h3>
+         <p> Our  services include buying and selling of both houses and lands, as well as renting properties. We offer a personalized and hassle-free experience to ensure our clients find the property they need</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>rent house / land</h3>
+         <p>We offer a wide selection of houses and lands for rent, with a focus on finding the right fit for your needs and budget.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>sell house/land</h3>
+         <p>Our experienced real estate agents will work with you to develop a customized strategy to help you sell your house or land quickly and efficiently, with transparent and honest communication throughout the process.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/contract.png" alt="">
+         <h3>Contract and Closing Services</h3>
+         <p>We provide contract templates and escrow services to help buyers and sellers complete the transaction process smoothly and efficiently.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/assets.png" alt="">
+         <h3>Property Listings</h3>
+         <p>Our website allows property owners and real estate agents to create listings for their land and houses, including detailed descriptions, photos, and other relevant information..</p>
+      </div>
+
+      <div class="box">
+         <img src="images/money.png" alt="">
+         <h3>Financing Options</h3>
+         <p>We partner with lenders to offer financing options to buyers, including loans and payment plans, to help them purchase the property they want.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- listings section starts  -->
+
+<section class="listings">
+
+   <h1 class="heading">latest listings</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            <h3>D</h3>
+            <div>
+               <p> Dilshan Perera</p>
+               <span>10-01-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>house</span><span>sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">modern flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>no:07 , nikawaratiya , kurunagala</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>4</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>800sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">view property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>S</h3>
+            <div>
+               <p> Supun Kalhara</p>
+               <span>31-12-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>flat</span><span>sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-2.webp" alt="">
+         </div>
+         <h3 class="name">modern flats and appartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>wijaya house , gampahawaththa, colombo</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>2</span></p>
+            <p><i class="fas fa-bath"></i><span>1</span></p>
+            <p><i class="fas fa-maximize"></i><span>400sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">view property</a>
+      </div>
+      <div class="box">
+         <div class="admin">
+            <h3>C</h3>
+            <div>
+               <p>Chamari Athapaththu </p>
+               <span>10-11-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Land</span><span>sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/land 1 .jpg" alt="">
+         </div>
+         <h3 class="name">Farming Land</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>no 1 , kalthota, ratnapura </span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>5</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>900sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">view property</a>
+      </div>
+
+
+   </div>
+
+   <div style="margin-top: 2rem; text-align:center;">
+      <a href="listings.html" class="inline-btn">view all</a>
+   </div>
+
+</section>
+
+<!-- listings section ends -->
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:1234567890"><i class="fas fa-phone"></i><span>0112 614 441</span></a>
+         <a href="tel:0112614441"><i class="fas fa-phone"></i><span>0112 614 441</span></a>
+         <a href="mailto:wijayalankalandsales@gmail.com"><i class="fas fa-envelope"></i><span>wijayalankalandsales@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span>34, Colombo road, Piliyandala, Sri Lanka</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>home</span></a>
+         <a href="about.html"><span>about</span></a>
+         <a href="contact.html"><span>contact</span></a>
+         <a href="listings.html"><span>all listings</span></a>
+         <a href="#"><span>saved properties</span></a>
+      </div>
+
+      <div class="box">
+         <a href="https://www.facebook.com/profile.php?id=100063249848161&mibextid=ZbWKwL"><span>facebook</span><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
+         <a href="#"><span>linkedin</span><i class="fab fa-linkedin"></i></a>
+         <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2023 by <span> Wijaya lanka land sales</span> | all rights reserved!</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
